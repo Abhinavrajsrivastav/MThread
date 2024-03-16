@@ -1,3 +1,7 @@
+------------------->>>>Questions on Mutli Threading<-------------------
+
+
+---------------->Level 0<----------------
 
 1. Process - A process is a software/program which is in execution.
 It is the 'running' form of a program
@@ -9,3 +13,15 @@ another is called context switching
 Java provide a line of execution, wchich can be treated as a thread
 
 4. Java provide a default thread called - (default name, can be changed) main thread (default priority 5, can be changed)
+
+5. can a thread name and priority be changed? - Yes
+
+6. can a main thread name and priority be changed? - Yes
+
+7. all thread methods are static in nature
+
+---------------->Level 1<----------------
+
+1. Thread scheduler(Boss of all thread) - It is a part of JVM, which decides which thread to run first
+
+
