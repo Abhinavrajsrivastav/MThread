@@ -22,6 +22,10 @@ Java provide a line of execution, wchich can be treated as a thread
 
 ---------------->Level 1<----------------
 
-1. Thread scheduler(Boss of all thread) - It is a part of JVM, which decides which thread to run first
+0. Runnable Interface - It is a functional interface, which is used to create a thread
+
+1. Thread class - It is a class in ""java.lang package"", it implements Runnable interface
+
+2. Thread scheduler(Boss of all thread) - It is a part of JVM, which decides which thread to run first
 
 
