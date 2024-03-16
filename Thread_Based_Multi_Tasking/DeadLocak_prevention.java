@@ -12,6 +12,7 @@ class Library implements Runnable {
                 Thread.sleep(3000);
                 synchronized (book1) {
                     System.out.println("Ram has acquired the Java Book");
+                    System.out.println(Thread.NORM_PRIORITY);
                     Thread.sleep(3000);
                     synchronized (book2) {
                         System.out.println("Ram has acquired SQL book");
@@ -58,6 +59,7 @@ public class DeadLocak_prevention {
         // Threads going in Runnable state
         t1.start();
         t2.start();
+
 
         //1. Ram has accquired the SQL book and want Data Science book
         //2. Shyam has accquired the Data Science book and want SQL Book
