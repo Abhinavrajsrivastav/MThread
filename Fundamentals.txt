@@ -33,3 +33,5 @@ Java provide a line of execution, wchich can be treated as a thread
 4. How to avoid race condition problem - By using synchronized keyword 
 
 5. synchronized - either on the method or on making a block as a synchronized block
+
+6. Deadlocak - when two threads are waiting for each other to release the resource, then this problem occurs
