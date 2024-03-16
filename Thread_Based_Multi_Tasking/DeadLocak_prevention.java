@@ -58,5 +58,9 @@ public class DeadLocak_prevention {
         // Threads going in Runnable state
         t1.start();
         t2.start();
+
+        //1. Ram has accquired the SQL book and want Data Science book
+        //2. Shyam has accquired the Data Science book and want SQL Book
+        //Mutual dependency of resource occures - deadloack occurs
     }
 }
