@@ -1,0 +1,9 @@
+
+1. Process - A process is a software/program which is in execution.
+It is the 'running' form of a program
+
+2. Contact Switching - The process of switching from one process to 
+another is called context switching
+
+3. Thread - A thread is a smallest unit of processing that can be performed, 
+Java provide a line of execution, wchich can be treated as a thread
