@@ -7,3 +7,5 @@ another is called context switching
 
 3. Thread - A thread is a smallest unit of processing that can be performed, 
 Java provide a line of execution, wchich can be treated as a thread
+
+4. Java provide a default thread called - (default name, can be changed) main thread (default priority 5, can be changed)
