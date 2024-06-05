@@ -23,6 +23,7 @@ public class Creating_thread_by_implementing_runnable_interface {
         //thread -1
         Dog dog = new Dog();
         Thread t1 = new Thread(dog);
+        //registering thread to Thread Scheduler
         t1.start();
         
         //thread -2

@@ -35,3 +35,6 @@ public class Join {
         System.out.println("Main thread exiting");
     }
 }
+
+
+//Join Method -  It is used to pause the current thread execution until unless the specified thread is dead.

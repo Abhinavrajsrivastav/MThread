@@ -24,11 +24,14 @@ public class Creating_thread_by_Extending_Thread_class {
         
         //thread -1
         Dog dog = new Dog();
+        //registering thread to Thread Scheduler
         dog.start();
         
         //thread -2
         Cat cat = new Cat();
         cat.start();
         //if there is a delays, TS will switch to another thread(Line - 12 )
+
+
     }
 }
