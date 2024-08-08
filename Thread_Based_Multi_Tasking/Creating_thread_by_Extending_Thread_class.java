@@ -1,5 +1,5 @@
 package Thread_Based_Multi_Tasking;
-//lies in java.lang pacakages
+// lies in java.lang pacakages
 
 class Cat extends Thread{
     public void run(){
@@ -30,7 +30,10 @@ public class Creating_thread_by_Extending_Thread_class {
         //thread -2
         Cat cat = new Cat();
         cat.start();
-        //if there is a delays, TS will switch to another thread(Line - 12 )
+
+        System.out.println(dog.getPriority());
+        System.out.println(cat.getPriority());
+        //We can not predict the thread execution order
 
 
     }
